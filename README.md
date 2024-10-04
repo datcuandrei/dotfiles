@@ -45,5 +45,6 @@ brew start start spacebar
 ```
 
 dotfiles location : `~` 
+<br>NOTE: This setup is SIP-friendly! You can use it with SIP enabled without issues.
 <br>NOTE: the rc's `.yabairc` and `.spacebarrc` are executables.
 <br>NOTE: `Nord.terminal` is for `Terminal.app`, only difference from the original theme being that it has a different font from the original one.
