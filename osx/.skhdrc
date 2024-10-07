@@ -20,6 +20,9 @@ alt + shift - down : yabai -m window --swap south || $(yabai -m window --display
 alt + shift - up : yabai -m window --swap north || $(yabai -m window --display north; yabai -m display --focus north)
 alt + shift - right : yabai -m window --swap east || $(yabai -m window --display east; yabai -m display --focus east)
 
+# focus monitor
+ctrl + alt - x  : yabai -m display --focus prev
+ctrl + alt - z  : yabai -m display --focus next 
 
 # set insertion point in focused container
 alt + ctrl - h : yabai -m window --insert west
@@ -84,7 +87,7 @@ alt - n : yabai -m query --spaces --space \
             | xargs -I{} yabai -m window --focus {}
 
 # close focused window
-alt - w : yabai -m window --close
+alt - q : yabai -m window --close
 
 
 
