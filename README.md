@@ -29,18 +29,19 @@ dotfiles location : `~`
 
 osx
 ---
-![Screenshot of config as of 3/Oct/24](osx/osx.png)
-> Screenshot of config as of 3/Oct/24
+![Screenshot of config as of 8/Oct/24](osx/osx.png)
+> Screenshot of config as of 8/Oct/24
 ```brew
 koekeishiya/formulae/yabai
 koekeishiya/formulae/skhd
 cmacrae/formulae/spacebar
+FelixKratz/formulae/borders
 ```
 
 to start the configs:
 ```zsh
 skhd --start-service # or brew services start skhd
-yabai --start-service # or brew services start yabai
+yabai --start-service # or brew services start yabai(will also load borders)
 brew start start spacebar
 ```
 

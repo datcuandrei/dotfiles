@@ -53,3 +53,5 @@ yabai -m config external_bar all:0:$SPACEBAR_HEIGHT
 # spacebar padding on top screen
 SPACEBAR_HEIGHT=$(spacebar -m config height)
 yabai -m config external_bar all:0:$SPACEBAR_HEIGHT
+
+borders active_color=0xffcd950c inactive_color=0xff000000 width=5.0 &
