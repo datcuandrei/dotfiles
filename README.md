@@ -9,8 +9,8 @@ On linux, my WM is `i3` with `py3status`, while on `osx` I use `yabai` with `spa
 
 linux
 ---
-![Screenshot of config as of 3/Oct/24](linux/linux.png)
-> Screenshot of config as of 3/Oct/24
+![Screenshot of config as of 10/Oct/24](linux/linux.png)
+> Screenshot of config as of 10/Oct/24
 ```apt
 i3
 i3lock
@@ -24,7 +24,7 @@ xterm
 ```
 
 dotfiles location : `~` 
-<br>NOTE: for `i3` and `picom.conf`, they belong in `~/.config/`.
+<br>NOTE: `i3`, `gtk-3.0` and `picom.conf` belong in `~/.config/`.
 
 
 osx
