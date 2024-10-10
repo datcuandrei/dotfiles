@@ -9,8 +9,8 @@ On linux, my WM is `i3` with `py3status`, while on `osx` I use `yabai` with `spa
 
 linux
 ---
-![Screenshot of config as of 10/Oct/24](linux/linux.png)
-> Screenshot of config as of 10/Oct/24
+![Screenshot of config](linux/linux.png)
+> Screenshot of `linux` config
 ```apt
 i3
 i3lock
@@ -21,6 +21,7 @@ vim
 xbindkeys
 hsetroot
 xterm
+feh
 ```
 
 dotfiles location : `~` 
@@ -29,8 +30,9 @@ dotfiles location : `~`
 
 osx
 ---
-![Screenshot of config as of 8/Oct/24](osx/osx.png)
-> Screenshot of config as of 8/Oct/24
+![Screenshot of config](osx/osx.png)
+> Screenshot of `osx` config
+
 ```brew
 koekeishiya/formulae/yabai
 koekeishiya/formulae/skhd
