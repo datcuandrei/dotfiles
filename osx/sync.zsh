@@ -1,3 +1,3 @@
 #!/usr/bin/env zsh
 
-rsync -av ~/.yabairc ~/.skhdrc ~/.spacebarrc ~/.zshrc ~/.vimrc .
+rsync -av ~/.tmux.conf ~/.yabairc ~/.skhdrc ~/.spacebarrc ~/.zshrc ~/.vimrc .
